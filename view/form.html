@@ -1,0 +1,38 @@
+<form method="post" action="?class=Form&method=salvar">
+    <input type="hidden" name="id" value="{id}" />
+    <div>
+      <label for="equipe">Equipe:</label>
+      <input
+        type="text"
+        name="equipe"
+        id="equipe"
+        required
+        maxlength="50"
+        value="{equipe}"
+      />
+    </div>
+    <div>
+      <label for="piloto">Piloto:</label>
+      <input
+        type="text"
+        name="piloto"
+        id="piloto"
+        required
+        maxlength="50"
+        value="{piloto}"
+      />
+    </div>
+    <div>
+      <label for="posicao">Posição:</label>
+      <input
+        type="number"
+        name="posicao"
+        id="posicao"
+        required
+        value="{posicao}"
+      />
+    </div>
+    <div>
+      <button type="submit">Salvar</button>
+    </div>
+  </form>
